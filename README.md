@@ -12,5 +12,6 @@ dlp src out
 
 To make Lombok to work in intellij, install Lombok plugin and enable Annotation preprocessing.
 
-Steps to enable Annotation Preprocessing in intellij
+Steps to enable Annotation Preprocessing in intellij.
+
 Preferences -> Build, Execution, Deployment -> Compiler -> Annotation Processors -> Enable annotation processing
