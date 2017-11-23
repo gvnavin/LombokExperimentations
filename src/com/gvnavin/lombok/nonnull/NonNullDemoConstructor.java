@@ -1,6 +1,5 @@
 package com.gvnavin.lombok.nonnull;
 
-import lombok.Getter;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
@@ -13,16 +12,9 @@ import java.util.List;
 
 @RequiredArgsConstructor
 @Setter
-public class NonNullDemo {
+public class NonNullDemoConstructor {
     
     @NonNull
     private final String reqString;
-    
-    @NonNull
-    private String demoString;
-    
-    private List<String> demoList;
-    
-    private String[] demoArray;
     
 }
